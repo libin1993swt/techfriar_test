@@ -1,0 +1,19 @@
+{
+    "name": "techfriar/itemlist",
+    "description": "This will filter items list",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Libin Abraham",
+            "email": "libinabraham1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Techfriar\\Itemlist\\": "src/"
+        }
+    }
+}
