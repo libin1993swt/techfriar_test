@@ -11,7 +11,9 @@ class ItemController extends Controller
 {
     //
     public function index(ItemInterface $itemInterface){
-        $data = $itemInterface->rule();
-        dd($data);
+        $items = $itemInterface->rule();
+        return response()->json([
+            'items' => $items
+        ]);
     }
 }
