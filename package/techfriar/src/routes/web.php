@@ -1,5 +1,5 @@
 <?php
 
-Route::get('items',function(){
-    return 'items';
+Route::group(['namespace' => 'Techfriar\Itemlist\Http\Controllers'], function (){
+    Route::get('items','ItemController@index');
 });

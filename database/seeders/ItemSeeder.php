@@ -14,7 +14,7 @@ class ItemSeeder extends Seeder
         // code to seed
         Item::create([
             'name' => 'Item A',
-            'price' => 250,
+            'price' => 240,
             'color' => 'Red',
             'length' => 100
         ]);
@@ -24,6 +24,27 @@ class ItemSeeder extends Seeder
             'price' => 150,
             'color' => 'Green',
             'length' => 200
+        ]);
+
+        Item::create([
+            'name' => 'Item C',
+            'price' => 260,
+            'color' => 'Blue',
+            'length' => 300
+        ]);
+
+        Item::create([
+            'name' => 'Item D',
+            'price' => 200,
+            'color' => 'Red',
+            'length' => 100
+        ]);
+
+        Item::create([
+            'name' => 'Item E',
+            'price' => 200,
+            'color' => 'Green',
+            'length' => 100
         ]);
     }
 }
